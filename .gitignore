@@ -1,1 +1,6 @@
-resource/*
+resources/*
+public/*
+
+
+!resources/.gitkeep
+!public/.gitkeep 

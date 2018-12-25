@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<main>
+    <div class="column central">
+        <h1>Hey there 👋🏼</h1>
+        <h2>I'm Claire.</h2>
+        <p>{{- partial "introduction.html" . -}}</p>
+
+        <div class="links">
+            {{- range .Site.Params.links -}}
+                <a href="{{ .url }}" title="{{ .title }}">
+                    <span class="{{ .iconset | default "fab" }} fa-{{ .icon }}"></span>
+                </a>
+            {{- end -}}
+        </div>
+    </div>
+
+</main>
+
+{{ end }}
