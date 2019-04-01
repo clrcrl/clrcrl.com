@@ -12,6 +12,11 @@ baseURL = "http://clrcrl.com/"
         url = "https://linkedin.com/in/clrcrl"
 
     [[params.links]]
+        icon = "medium"
+        title = "Medium"
+        url = "https://medium.com/@clrcrl"
+
+    [[params.links]]
         iconset = "fas"
         icon = "envelope"
         title = "Email"
